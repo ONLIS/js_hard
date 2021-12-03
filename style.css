@@ -13,70 +13,20 @@
   text-align: center;
   flex-basis: 100%;
 }
-.project-ol {
+.day-of-week {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
-  list-style: inside;
+  width: 100%;
 }
-.project-ol__item {
-  display: flex;
+.day-of-week__item {
+  text-align: center;
   flex-basis: 100%;
-  align-items: baseline;
   margin-bottom: 20px;
 }
-.project-ol__simple {
-  display: flex;
-  align-items: baseline;
-  margin-left: 20px;
-}
-.project-ol__simple--start::before {
-  content: "×";
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid rgb(233, 233, 233);
-  height: 20px;
-  width: 20px;
-  margin-right: 10px;
-}
-.project-ol__simple--done {
-  font-weight: bold;
-  color: green;
-}
-.project-ol__simple--done::before {
-  content: "✔";
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid green;
-  height: 20px;
-  width: 20px;
-  margin-right: 10px;
-}
-.project-ol__hard {
-  color: red;
-  display: flex;
-  align-items: baseline;
-  margin-left: 20px;
+.day-of-week__item--bold {
   font-weight: bold;
 }
-.project-ol__hard--start::before {
-  content: "×";
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid rgb(233, 233, 233);
-  height: 20px;
-  width: 20px;
-  margin-right: 10px;
-}
-.project-ol__hard--done::before {
-  content: "✔";
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid green;
-  height: 20px;
-  width: 20px;
-  margin-right: 10px;
+.day-of-week__item--italic {
+  font-style: italic;
 }
