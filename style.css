@@ -13,20 +13,8 @@
   text-align: center;
   flex-basis: 100%;
 }
-.day-of-week {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  width: 100%;
-}
-.day-of-week__item {
+.digits {
   text-align: center;
   flex-basis: 100%;
   margin-bottom: 20px;
-}
-.day-of-week__item--bold {
-  font-weight: bold;
-}
-.day-of-week__item--italic {
-  font-style: italic;
 }
